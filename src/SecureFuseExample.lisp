@@ -1,3 +1,15 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                                                  ;;
+;;                COPYRIGHT NOTICE                  ;;
+;;                                                  ;;
+;;             © 2023 Sotirios Liaskos              ;;
+;;                                                  ;;
+;;    All rights reserved. Unauthorized copying,    ;;
+;;    distribution or reproduction of this file,    ;;
+;;    in whole or in part, is strictly prohibited.  ;;
+;;                                                  ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (in-package :shop-user)
 ; This extremely simple example shows some of the most essential
 ;   features of SHOP2.
