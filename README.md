@@ -11,7 +11,10 @@ The formalization can be seen as one of the many possible that can be devised fo
 ## Key aspects
 The specification focusses on the exchange of information between two parties making certain assumptions on the devices and media in which the information is stored, and the computational devices that the participants use. The possibilities are by no means meant to be exhaustive but rather to provide an illustration of the modeling and reasoning possibilities available through out framework. 
 
-Note that the entire domain specification, except for the attack tree axioms and the final method, is really an HTN description of an large and complex AND/OR goal decomposition, where methods are used to implement intermediate AND and OR decomposed nodes. Thus, the entire specification can be visualized using iStar 2.0 constructs. 
+Note that the entire domain specification, except for the attack tree axioms and the final method, is really an HTN description of an large and complex AND/OR goal decomposition, where methods are used to implement intermediate AND and OR decomposed nodes. Thus, the entire specification can be visualized using iStar 2.0 constructs. Below is a visual of how this can be done -- pattern is greatelly simplified for convenience. 
+
+<img src="https://github.com/cmg-york/secure-fuse/blob/main/img/Pattern.png?raw=true" alt="A goal tree representing a secure workflow pattern." width="450"/>
+
 
 ## Computational Devices
 Participants in the workflows are assumed to have access to the following devices:
@@ -160,7 +163,7 @@ Alternativelly we can define a domain specific method:
 The image below shows how the various visual elements developed in STS-ml are translated into the various chunks of the HTN specs. The actual transmission of the invoice (a domain specific requirement) is translated into the generic method ```transmit-document ...``` taken from the community-maintained repository. The security requirements, appearing as decorations at the bottom of the document shape (the large rectangle) are translated into preconditions of the ```final``` action after possibly being formulated as negated heads of attack trees. 
 
 
-<img src="https://github.com/genericaylo/submission/blob/main/img/translation.png?raw=true" alt="Description of relationship between goal diagrams and resulting HTN spec chunks" width="450"/>
+<img src="https://github.com/cmg-york/secure-fuse/blob/main/img/translation.png?raw=true" alt="Description of relationship between goal diagrams and resulting HTN spec chunks" width="450"/>
 
 # Running 
 To identify plans, SHOP2 requires running 
