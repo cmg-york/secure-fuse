@@ -82,7 +82,7 @@ A few remarks here:
 * Additional axioms may be needed for various security or privacy requirements and complex formulations thereof including non-disclosure, redundancy, retention or disposal etc.
 
 ## Domain and Security Requirements
-As mentioned in the paper, a special action is added in the domain specification for the purpose of enforcing its precondition. This is due to the fact that SHOP2’s problem specification is written in the form of a top level method rather than a goal state. Thus, a method we call ```final``` is introduced and security and other domain requirements are added as preconditions. Successful fulfilment of these preconditions allows the planner to execute “done”, a dummy unconditional action.
+A special action is added in the domain specification for the purpose of enforcing its precondition. This is due to the fact that SHOP2’s problem specification is written in the form of a top level method rather than a goal state. Thus, a method we call ```final``` is introduced and security and other domain requirements are added as preconditions. Successful fulfilment of these preconditions allows the planner to execute “done”, a dummy unconditional action.
 
 ## Problem Specification
 
@@ -172,9 +172,7 @@ Please see below for rough installation instructions.
 
 ## Running Example
 
-Let us now explore the example of the interaction between the supplier and the contractor as seen in the paper. As stated above, the example here is much more elaborate than the one that has been presented in the paper, which was simplified due to space constraints.
-
-Recall that the interaction is that the contractor places an order to the supplier, who, in turn issues an invoice to be sent to the contractor.
+Let us now explore the example of the interaction between the supplier and the contractor. Recall that the interaction is that the contractor places an order to the supplier, who, in turn issues an invoice to be sent to the contractor.
 
 ### Case 1 – No security requirements and no vulnerability assumptions.
 
